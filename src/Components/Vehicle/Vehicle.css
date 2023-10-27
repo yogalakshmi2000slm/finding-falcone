@@ -1,0 +1,55 @@
+.vehicle-sets-container {
+    display: flex;
+    
+   margin-left: 390px;
+  
+   margin-top: 20px;
+  }
+  
+.vehicle-set {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+ 
+ 
+ .time-container {
+  text-align: right; 
+  margin-right: 10px; 
+}
+.v1{
+    display: flex;
+  flex-direction: column;
+  
+}
+
+.vehicle-sets-container > button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #0074D9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .vehicle-sets-container {
+      flex-direction: column;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .vehicle-set {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .time-container {
+      text-align: center;
+      margin: 10px 0;
+  }
+}
+
+
+
+
